@@ -12,14 +12,22 @@ The following images contain the results of the analysis based on specified para
 
 ## K-means clustering
 ![image](https://user-images.githubusercontent.com/73252923/217788281-d58f8459-e27a-4565-8471-d5294747ab28.png)
+
 Dividing into 4 clusters was chosen as a result of using elbow method on the dataframe.
+Clustering overview:
+  Cluster 0. High incidence rate, low mortality rate, the standard of life - above average. Example: Australia, Canada, France, the USA
+  Cluster 1. Low incidence rate, low mortality rate, the standard of life - average. Example: Egypt, Saudi Arabia, Thailand
+  Cluster 2. Low incidence rate, low mortality rate, the standard of life - below average. Example: Australia, Canada, France, the USA
+  Cluster 3. High incidence rate, high mortality rate, the standard of life - below average. Example: Argentina, Georgia, Ukraine
 
 ## DBSCAN clustering
 ![image](https://user-images.githubusercontent.com/73252923/217788445-5386317d-bfeb-4996-9458-2921e946af21.png)
+
 Eps = 0.8 was chosed as a result of using knee method on the dataframe.
 
 ## Hierarchical clustering
-![image](https://user-images.githubusercontent.com/73252923/217858065-915db6cb-aa4d-4f94-b465-f8bd031fda1d.png) | ![image](https://user-images.githubusercontent.com/73252923/217788532-219fb3c4-4735-4a9f-902c-953e073a2eb0.png)
+![image](https://user-images.githubusercontent.com/73252923/217788532-219fb3c4-4735-4a9f-902c-953e073a2eb0.png)
+
 Dividing into 4 clusters was chosen as a result of creagin dendrogram of the dataframe.
 
 # Analysis results
