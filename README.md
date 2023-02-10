@@ -15,10 +15,10 @@ The following images contain the results of the analysis based on specified para
 
 Dividing into 4 clusters was chosen as a result of using elbow method on the dataframe.
 
-Clustering overview:
+K-means clustering overview:
   - Cluster 0. High incidence rate, low mortality rate, the standard of life - above average. Example: Australia, Canada, France, the USA
   - Cluster 1. Low incidence rate, low mortality rate, the standard of life - average. Example: Egypt, Saudi Arabia, Thailand
-  - Cluster 2. Low incidence rate, low mortality rate, the standard of life - below average. Example: Australia, Canada, France, the USA
+  - Cluster 2. Low incidence rate, low mortality rate, the standard of life - below average. Example: Afghanistan, Syria, Zambia
   - Cluster 3. High incidence rate, high mortality rate, the standard of life - below average. Example: Argentina, Georgia, Ukraine
 
 ## DBSCAN clustering
@@ -26,10 +26,22 @@ Clustering overview:
 
 Eps = 0.8 was chosed as a result of using knee method on the dataframe.
 
+DBSCAN clustering overview:
+  - Cluster 0. Low incidence rate, low mortality rate, the standard of life - average. Example: Albania, Egypt, India, Thailand
+  - Cluster 1. Low incidence rate, low mortality rate, the standard of life - below average. Example: Benin, Nigeria, Zambia
+  - Cluster 2. High incidence rate, high mortality rate, the standard of life - above average. Example: Canada, France, the USA
+  - Cluster -1 (outliers). Example: Afghanistan, Italy, Ukraine
+
 ## Hierarchical clustering
 ![image](https://user-images.githubusercontent.com/73252923/217788532-219fb3c4-4735-4a9f-902c-953e073a2eb0.png)
 
 Dividing into 4 clusters was chosen as a result of creagin dendrogram of the dataframe.
+
+Hierarchical clustering overview:
+  - Cluster 0. High incidence rate, high mortality rate, the standard of life - above average. Example: Australia, Canada, France, the USA
+  - Cluster 1. Average incidence rate, Average mortality rate, the standard of life - average. Example: Albania, Egypt, Ukraine
+  - Cluster 2. Low incidence rate, low mortality rate, the standard of life - below average. Example: Afghanistan, Uganda, Togo
+  - Cluster 3. High incidence rate, high mortality rate, the standard of life - average.Example: Argentina, Greece, Turkey
 
 # Analysis results
 In the clustering process countries were divided into the next 4 groups:
